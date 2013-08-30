@@ -1,18 +1,30 @@
 var fs = require('fs');
 var express = require("express");
 var app = express();
+var http = require("http");
+var server = http.createServer(app);
 
-app.get('/', function(request, response) {
-  var index = fs.readFileSync('index.html','utf8');
-  
-  index.toString('utf8');
+app.listen(8080);
+console.log("Server Runnung");
 
-  response.end(index);
+app.get('/normalize.css', function(request, response) {
+  var file = fs.readFileSync('normalize.css','utf8');
+  response.end(file);
 });
 
-var port = process.env.PORT || 8080;
-app.listen(port, function() {
-  console.log("Listening on " + port);
+app.get('/storyflow.css', function(request, response) {
+  var file = fs.readFileSync('storyflow.css','utf8');
+  response.end(file);
+});
+
+app.get('/flow.css', function(request, response) {
+  var file = fs.readFileSync('flow.css','utf8');
+  response.end(file);
+});
+
+app.get('/', function (req, res) {
+  res.sendfile(__dirname + '/index.html');
+  console.log("read index.html");
 });
 
 /*Connect to mongodb*/
