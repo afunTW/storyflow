@@ -8,22 +8,22 @@ app.listen(8080);
 console.log("Server Runnung");
 
 app.get('/css/normalize.css', function(request, response) {
-  var file = fs.readFileSync('normalize.css','utf8');
+  var file = fs.readFileSync('Final-Project/index/css/normalize.css','utf8');
   response.end(file);
 });
 
 app.get('/css/storyflow.css', function(request, response) {
-  var file = fs.readFileSync('storyflow.css','utf8');
+  var file = fs.readFileSync('Final-Project/index/css/storyflow.css','utf8');
   response.end(file);
 });
 
 app.get('/css/flow.css', function(request, response) {
-  var file = fs.readFileSync('flow.css','utf8');
+  var file = fs.readFileSync('Final-Project/index/css/flow.css','utf8');
   response.end(file);
 });
 
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/old_index.html');
+  res.sendfile(__dirname + '/Final-Project/index/index.html');
   console.log("read index.html");
 });
 
