@@ -1,0 +1,868 @@
+<!DCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com--><!-- Last Published: Mon Aug 26 2013 03:35:09 GMT+0000 (UTC) -->
+<html data-wf-site="520cfa0aeb5a9c3a0d000ce2">
+  <head>
+    <meta charset="utf-8">
+    <title>storyflow</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<<<<<< HEAD:index.html-->
+	
+	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+	<link href="http://fonts.googlepis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googlepis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">	
+	
+	<style type="text/css">
+		article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block} audio,canvas,video{display:inline-block} audio:not([controls]){display:none;height:0} [hidden]{display:none} html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;} body{margin:0} a:focus{outline:thin dotted} a:active,a:hover{outline:0} h1{font-size:2em} abbr[title]{border-bottom:1px dotted} b,strong{font-weight:bold} dfn{font-style:italic} mark{background:#ff0;color:#000} code,kbd,pre,samp{font-family:monospace, serif;font-size:1em} pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word} q{quotes:"\201C" "\201D" "\2018" "\2019"} small{font-size:80%} sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline} sup{top:-0.5em} sub{bottom:-0.25em} img{border:0} svg:not(:root){overflow:hidden} figure{margin:0} fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em} legend{border:0;padding:0;} button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;} button,input{line-height:normal} button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;} button[disabled],input[disabled]{cursor:default} input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;} input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box} input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none} button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0} textarea{overflow:auto;vertical-align:top;} table{border-collapse:collapse;border-spacing:0} 
+		*{-moz-box-sizing:border-box;box-sizing:border-box} body{margin:0} img{max-width:100%;vertical-align:middle;display:inline-block} .w-block{display:block} .w-inline-block{display:inline-block} .w-clearfix:before,.w-clearfix:after{display:table;content:'';line-height:0} .w-clearfix:after{clear:both} .w-hidden{display:none} .w-video{width:100%;position:relative;padding:0}.w-video iframe,.w-video object,.w-video embed{position:absolute;top:0;left:0;width:100%;height:100%} h1,h2,h3,h4,h5,h6{margin:0} p{margin:0} blockquote{margin:0} fieldset{padding:0;margin:0;border:0} label{display:block;margin-bottom:5px;font-weight:bold} button,html input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button} .w-form{margin:0 0 15px} .w-form-done{display:none;padding:10px;background-color:#dbffd1} .w-form-done-show{display:block} .w-form-fail{display:none;margin-top:10px;padding:10px;background-color:#ffdede} .w-form-fail-show{display:block} .w-input{display:block;width:100%;height:38px;padding:8px 12px;margin-bottom:10px;font-size:14px;line-height:1.428571429;color:#555555;vertical-align:middle;background-color:#ffffff;border:1px solid #cccccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}.w-input:-moz-placeholder{color:#999} .w-input::-moz-placeholder{color:#999} .w-input:-ms-input-placeholder{color:#999} .w-input::-webkit-input-placeholder{color:#999} .w-input:focus{border-color:rgba(82,168,236,0.8);outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)} .w-input[disabled],.w-input[readonly],fieldset[disabled] .w-input{cursor:not-allowed;background-color:#eeeeee} textarea.w-input{height:auto} .w-button{display:inline-block;padding:12px;background-color:black;color:white;border:0;line-height:inherit} .w-container{margin-left:auto;margin-right:auto;max-width:940px}.w-container:before,.w-container:after{display:table;content:'';line-height:0} .w-container:after{clear:both} .w-container .w-row{margin-left:-10px;margin-right:-10px} .w-row:before,.w-row:after{display:table;content:'';line-height:0} .w-row:after{clear:both} .w-row .w-row{margin-left:0;margin-right:0} .w-col{position:relative;float:left;width:100%;min-height:1px;padding-left:10px;padding-right:10px}.w-col .w-col{padding-left:0;padding-right:0} .w-col-1{width:8.333333333333332%} .w-col-2{width:16.666666666666664%} .w-col-3{width:25%} .w-col-4{width:33.33333333333333%} .w-col-5{width:41.66666666666667%} .w-col-6{width:50%} .w-col-7{width:58.333333333333336%} .w-col-8{width:66.66666666666666%} .w-col-9{width:75%} .w-col-10{width:83.33333333333334%} .w-col-11{width:91.66666666666666%} .w-col-12{width:100%} .w-col-push-1{left:8.333333333333332%} .w-col-push-2{left:16.666666666666664%} .w-col-push-3{left:25%} .w-col-push-4{left:33.33333333333333%} .w-col-push-5{left:41.66666666666667%} .w-col-push-6{left:50%} .w-col-push-7{left:58.333333333333336%} .w-col-push-8{left:66.66666666666666%} .w-col-push-9{left:75%} .w-col-push-10{left:83.33333333333334%} .w-col-push-11{left:91.66666666666666%} .w-col-pull-1{right:8.333333333333332%} .w-col-pull-2{right:16.666666666666664%} .w-col-pull-3{right:25%} .w-col-pull-4{right:33.33333333333333%} .w-col-pull-5{right:41.66666666666667%} .w-col-pull-6{right:50%} .w-col-pull-7{right:58.333333333333336%} .w-col-pull-8{right:66.66666666666666%} .w-col-pull-9{right:75%} .w-col-pull-10{right:83.33333333333334%} .w-col-pull-11{right:91.66666666666666%} .w-col-offset-1{margin-left:8.333333333333332%} .w-col-offset-2{margin-left:16.666666666666664%} .w-col-offset-3{margin-left:25%} .w-col-offset-4{margin-left:33.33333333333333%} .w-col-offset-5{margin-left:41.66666666666667%} .w-col-offset-6{margin-left:50%} .w-col-offset-7{margin-left:58.333333333333336%} .w-col-offset-8{margin-left:66.66666666666666%} .w-col-offset-9{margin-left:75%} .w-col-offset-10{margin-left:83.33333333333334%} .w-col-offset-11{margin-left:91.66666666666666%} .w-hidden-main{display:none !important} @media screen and (max-width:991px){.w-container{max-width:728px} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:none !important} .w-col-medium-1{width:8.333333333333332%} .w-col-medium-2{width:16.666666666666664%} .w-col-medium-3{width:25%} .w-col-medium-4{width:33.33333333333333%} .w-col-medium-5{width:41.66666666666667%} .w-col-medium-6{width:50%} .w-col-medium-7{width:58.333333333333336%} .w-col-medium-8{width:66.66666666666666%} .w-col-medium-9{width:75%} .w-col-medium-10{width:83.33333333333334%} .w-col-medium-11{width:91.66666666666666%} .w-col-medium-12{width:100%} .w-col-medium-push-1{left:8.333333333333332%} .w-col-medium-push-2{left:16.666666666666664%} .w-col-medium-push-3{left:25%} .w-col-medium-push-4{left:33.33333333333333%} .w-col-medium-push-5{left:41.66666666666667%} .w-col-medium-push-6{left:50%} .w-col-medium-push-7{left:58.333333333333336%} .w-col-medium-push-8{left:66.66666666666666%} .w-col-medium-push-9{left:75%} .w-col-medium-push-10{left:83.33333333333334%} .w-col-medium-push-11{left:91.66666666666666%} .w-col-medium-pull-1{right:8.333333333333332%} .w-col-medium-pull-2{right:16.666666666666664%} .w-col-medium-pull-3{right:25%} .w-col-medium-pull-4{right:33.33333333333333%} .w-col-medium-pull-5{right:41.66666666666667%} .w-col-medium-pull-6{right:50%} .w-col-medium-pull-7{right:58.333333333333336%} .w-col-medium-pull-8{right:66.66666666666666%} .w-col-medium-pull-9{right:75%} .w-col-medium-pull-10{right:83.33333333333334%} .w-col-medium-pull-11{right:91.66666666666666%} .w-col-medium-offset-1{margin-left:8.333333333333332%} .w-col-medium-offset-2{margin-left:16.666666666666664%} .w-col-medium-offset-3{margin-left:25%} .w-col-medium-offset-4{margin-left:33.33333333333333%} .w-col-medium-offset-5{margin-left:41.66666666666667%} .w-col-medium-offset-6{margin-left:50%} .w-col-medium-offset-7{margin-left:58.333333333333336%} .w-col-medium-offset-8{margin-left:66.66666666666666%} .w-col-medium-offset-9{margin-left:75%} .w-col-medium-offset-10{margin-left:83.33333333333334%} .w-col-medium-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:767px){.w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:none !important} .w-row,.w-container .w-row{margin-left:0;margin-right:0} .w-col{width:100%;left:auto;right:auto} .w-col-small-3{width:25%} .w-col-small-4{width:33.33333333333333%} .w-col-small-6{width:50%} .w-col-small-push-1{left:8.333333333333332%} .w-col-small-push-2{left:16.666666666666664%} .w-col-small-push-3{left:25%} .w-col-small-push-4{left:33.33333333333333%} .w-col-small-push-5{left:41.66666666666667%} .w-col-small-push-6{left:50%} .w-col-small-push-7{left:58.333333333333336%} .w-col-small-push-8{left:66.66666666666666%} .w-col-small-push-9{left:75%} .w-col-small-push-10{left:83.33333333333334%} .w-col-small-push-11{left:91.66666666666666%} .w-col-small-pull-1{right:8.333333333333332%} .w-col-small-pull-2{right:16.666666666666664%} .w-col-small-pull-3{right:25%} .w-col-small-pull-4{right:33.33333333333333%} .w-col-small-pull-5{right:41.66666666666667%} .w-col-small-pull-6{right:50%} .w-col-small-pull-7{right:58.333333333333336%} .w-col-small-pull-8{right:66.66666666666666%} .w-col-small-pull-9{right:75%} .w-col-small-pull-10{right:83.33333333333334%} .w-col-small-pull-11{right:91.66666666666666%} .w-col-small-offset-1{margin-left:8.333333333333332%} .w-col-small-offset-2{margin-left:16.666666666666664%} .w-col-small-offset-3{margin-left:25%} .w-col-small-offset-4{margin-left:33.33333333333333%} .w-col-small-offset-5{margin-left:41.66666666666667%} .w-col-small-offset-6{margin-left:50%} .w-col-small-offset-7{margin-left:58.333333333333336%} .w-col-small-offset-8{margin-left:66.66666666666666%} .w-col-small-offset-9{margin-left:75%} .w-col-small-offset-10{margin-left:83.33333333333334%} .w-col-small-offset-11{margin-left:91.66666666666666%}}@media screen and (max-width:479px){.w-container{max-width:none} .w-hidden-main{display:inherit !important} .w-hidden-medium{display:inherit !important} .w-hidden-small{display:inherit !important} .w-hidden-tiny{display:none !important} .w-col{width:100%} .w-col-tiny-3{width:25%} .w-col-tiny-4{width:33.33333333333333%} .w-col-tiny-6{width:50%} .w-col-tiny-push-1{left:8.333333333333332%} .w-col-tiny-push-2{left:16.666666666666664%} .w-col-tiny-push-3{left:25%} .w-col-tiny-push-4{left:33.33333333333333%} .w-col-tiny-push-5{left:41.66666666666667%} .w-col-tiny-push-6{left:50%} .w-col-tiny-push-7{left:58.333333333333336%} .w-col-tiny-push-8{left:66.66666666666666%} .w-col-tiny-push-9{left:75%} .w-col-tiny-push-10{left:83.33333333333334%} .w-col-tiny-push-11{left:91.66666666666666%} .w-col-tiny-pull-1{right:8.333333333333332%} .w-col-tiny-pull-2{right:16.666666666666664%} .w-col-tiny-pull-3{right:25%} .w-col-tiny-pull-4{right:33.33333333333333%} .w-col-tiny-pull-5{right:41.66666666666667%} .w-col-tiny-pull-6{right:50%} .w-col-tiny-pull-7{right:58.333333333333336%} .w-col-tiny-pull-8{right:66.66666666666666%} .w-col-tiny-pull-9{right:75%} .w-col-tiny-pull-10{right:83.33333333333334%} .w-col-tiny-pull-11{right:91.66666666666666%} .w-col-tiny-offset-1{margin-left:8.333333333333332%} .w-col-tiny-offset-2{margin-left:16.666666666666664%} .w-col-tiny-offset-3{margin-left:25%} .w-col-tiny-offset-4{margin-left:33.33333333333333%} .w-col-tiny-offset-5{margin-left:41.66666666666667%} .w-col-tiny-offset-6{margin-left:50%} .w-col-tiny-offset-7{margin-left:58.333333333333336%} .w-col-tiny-offset-8{margin-left:66.66666666666666%} .w-col-tiny-offset-9{margin-left:75%} .w-col-tiny-offset-10{margin-left:83.33333333333334%} .w-col-tiny-offset-11{margin-left:91.66666666666666%}} 
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		  color: #333;
+		  font-size: 12px;
+		  line-height: 20px;
+		}
+		h1 {
+		  margin-right: 0px;
+		  margin-bottom: 10px;
+		  margin-left: 0px;
+		  font-size: 38px;
+		  line-height: 44px;
+		  font-weight: 700;
+		}
+		h2 {
+		  margin: 62px 0px 10px;
+		  font-family: Montserrat, sans-serif;
+		  color: #745785;
+		  font-size: 32px;
+		  line-height: 36px;
+		  font-weight: 400;
+		}
+		h3 {
+		  margin: 10px 0px 23px;
+		  font-family: Montserrat, sans-serif;
+		  color: #745785;
+		  font-size: 20px;
+		  line-height: 30px;
+		  font-weight: 400;
+		}
+		h4 {
+		  margin: 10px 0px;
+		  font-size: 18px;
+		  line-height: 24px;
+		  font-weight: 700;
+		}
+		h5 {
+		  margin: 10px 0px;
+		  font-size: 14px;
+		  line-height: 20px;
+		  font-weight: 700;
+		}
+		h6 {
+		  margin: 10px 0px;
+		  font-size: 12px;
+		  line-height: 18px;
+		  font-weight: 700;
+		}
+		p {
+		  margin-bottom: 5px;
+		  font-family: Bitter, serif;
+		  color: #a1a1a1;
+		  font-size: 15px;
+		  line-height: 23px;
+		}
+		img {
+		  display: inline-block;
+		  height: auto;
+		  max-width: 100%;
+		  text-shadow: none;
+		  vertical-align: middle;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 18px 21px;
+		  border-radius: 5px;
+		  background-color: black;
+		  background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+		  background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+		  background-image: linear-gradient(#ff8d5e, #d7624b);
+		  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  font-family: Montserrat, sans-serif;
+		  color: white;
+		  font-size: 22px;
+		  text-align: center;
+		  text-decoration: none;
+		  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		}
+		.button:hover {
+		  background-image: -webkit-linear-gradient(#ff9d73, #d7624b);
+		  background-image: -o-linear-gradient(#ff9d73, #d7624b);
+		  background-image: linear-gradient(#ff9d73, #d7624b);
+		  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		}
+		.button.app-store {
+		  width: 154px;
+		  padding-top: 9px;
+		  padding-bottom: 9px;
+		  background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+		  background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+		  background-image: linear-gradient(#ff8d5e, #d7624b);
+		  box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		}
+		.section {
+		  position: static;
+		  padding-top: 36px;
+		  padding-bottom: 36px;
+		  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+		}
+		.section.hero {
+		  padding-bottom: 0px;
+		  background-image: url(http://ppt.cc/4NpL@.jpg);
+		  background-size: cover;
+		}
+		.section.white-bg {
+		  box-shadow: none;
+		}
+		.section.white-bg.subfooter {
+		  padding-top: 0px;
+		  padding-bottom: 0px;
+		  text-align: center;
+		}
+		.section.grey-bg {
+		  background-color: #f5f6f7;
+		  color: #f7f3bc;
+		}
+		.section.grey-bg.footer {
+		  text-align: center;
+		}
+		.section.purple {
+		  background-color: #745785;
+		}
+		.section.header {
+		  position: fixed;
+		  left: 0px;
+		  top: 0px;
+		}
+		.hero-iphone {
+		  display: block;
+		  margin-right: auto;
+		  margin-bottom: -78px;
+		  margin-left: auto;
+		  text-shadow: black 0px 0px 0px;
+		}
+		.app-name {
+		  margin-top: 3px;
+		  font-family: Montserrat, sans-serif;
+		  color: #5c5c5c;
+		  font-size: 19px;
+		  font-weight: 700;
+		  letter-spacing: 9px;
+		  text-transform: uppercase;
+		}
+		.logo-in-header {
+		  margin-right: 12px;
+		  float: left;
+		}
+		.nav-link {
+		  margin-right: 15px;
+		  margin-left: 15px;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  font-family: Montserrat, sans-serif;
+		  color: #5c5c5c;
+		  font-size: 14px;
+		  text-decoration: none;
+		  text-transform: uppercase;
+		}
+		.nav-link:hover {
+		  color: #ed7a56;
+		}
+		.nav-column {
+		  text-align: right;
+		}
+		.app-store-button {
+		  margin-left: 18px;
+		  padding: 5px 12px;
+		  border-radius: 8px;
+		  background-color: #837d99;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		}
+		.app-store-button:hover {
+		  background-color: #ed7a56;
+		}
+		.hero-header {
+		  margin-top: 130px;
+		  margin-bottom: 19px;
+		  font-family: Montserrat, sans-serif;
+		  color: white;
+		  font-size: 42px;
+		  text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		}
+		.hero-subtitle {
+		  margin-bottom: 20px;
+		  font-family: Bitter, serif;
+		  color: rgba(255, 255, 255, 0.83);
+		  font-size: 15px;
+		  line-height: 22px;
+		  text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		}
+		.big-image {
+		  margin-bottom: 0px;
+		  float: none;
+		  text-shadow: none;
+		}
+		.icon-title {
+		  margin-top: 22px;
+		  margin-bottom: 12px;
+		  font-family: Bitter, serif;
+		  color: #c1adcc;
+		  font-size: 17px;
+		  font-weight: 400;
+		}
+		.organize-row {
+		  margin-top: 36px;
+		}
+		.price-text {
+		  margin-top: 11px;
+		  background-image: none;
+		  box-shadow: none;
+		  color: white;
+		  font-size: 25px;
+		  line-height: 28px;
+		  text-shadow: none;
+		}
+		.logo-in-footer {
+		  display: block;
+		  margin-top: 22px;
+		  margin-right: auto;
+		  margin-left: auto;
+		  text-shadow: black 0px 0px 0px;
+		}
+		.left-column {
+		  padding-top: 35px;
+		  padding-bottom: 35px;
+		  border-left: 1px solid rgba(0, 0, 0, 0.09);
+		}
+		.subfooter-right {
+		  padding-top: 35px;
+		  padding-bottom: 35px;
+		  border-right: 1px solid rgba(0, 0, 0, 0.09);
+		  border-left: 1px solid rgba(0, 0, 0, 0.09);
+		}
+		.subfooter-left {
+		  padding-top: 6px;
+		}
+		.social-icon {
+		  width: 36px;
+		  height: 36px;
+		  margin-right: 5px;
+		  margin-left: 5px;
+		  padding-top: 7px;
+		  border-radius: 60px;
+		  background-color: #fa875b;
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		}
+		.social-icon:hover {
+		  background-color: #ff6224;
+		}
+		.social-icon.last-icon {
+		  margin-right: 0px;
+		}
+		.blog-link {
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  font-family: Bitter, serif;
+		  color: #fa875b;
+		  font-size: 18px;
+		  font-style: italic;
+		  text-decoration: none;
+		}
+		.blog-link:hover {
+		  color: #ff5917;
+		}
+		.footer-link {
+		  margin-left: 8px;
+		  border-bottom: 1px solid rgba(131, 125, 153, 0.34);
+		  -webkit-transition: all 200ms ease;
+		  -o-transition: all 200ms ease;
+		  transition: all 200ms ease;
+		  font-family: Bitter, serif;
+		  color: #837d99;
+		  text-decoration: none;
+		}
+		.footer-link:hover {
+		  border-bottom: 1px solid rgba(131, 125, 153, 0.86);
+		}
+		.footer-text {
+		  display: inline;
+		}
+		.call-to-action {
+		  padding-right: 0px;
+		}
+		.center {
+		  margin-top: 40px;
+		  margin-bottom: 40px;
+		  padding-top: 0px;
+		  padding-bottom: 0px;
+		  padding-left: 0px;
+		  text-align: center;
+		}
+		.icon {
+		  margin-top: 0px;
+		  margin-right: 0px;
+		  padding: 0px;
+		}
+		@media (max-width: 991px) {
+		  p {
+			font-size: 14px;
+			line-height: 21px;
+		  }
+		  .button {
+			background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+			background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+			background-image: linear-gradient(#ff8d5e, #d7624b);
+			box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+			text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		  }
+		  .section.hero {
+			padding-top: 34px;
+			padding-bottom: 1px;
+			background-image: url(images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+		  }
+		  .hero-iphone {
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .hero-header {
+			font-size: 38px;
+			text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		  }
+		  .hero-subtitle {
+			text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		  }
+		  .big-image {
+			text-shadow: black 0px 0px 0px;
+		  }
+		}
+		@media (max-width: 767px) {
+		  h2 {
+			margin-top: 0px;
+		  }
+		  .button {
+			margin-bottom: 50px;
+			background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+			background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+			background-image: linear-gradient(#ff8d5e, #d7624b);
+			box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+			text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		  }
+		  .button.app-store {
+			margin-top: 12px;
+			margin-bottom: 0px;
+			background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+			background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+			background-image: linear-gradient(#ff8d5e, #d7624b);
+			box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+			text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		  }
+		  .section {
+			padding-top: 33px;
+			padding-bottom: 33px;
+			text-align: center;
+		  }
+		  .section.hero {
+			background-image: url(images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+			text-align: center;
+		  }
+		  .hero-iphone {
+			margin-bottom: 1px;
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .app-name {
+			margin-bottom: 0px;
+		  }
+		  .logo-in-header {
+			display: block;
+			margin-right: auto;
+			margin-bottom: 12px;
+			margin-left: auto;
+			float: none;
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .nav-column {
+			padding-top: 15px;
+			text-align: center;
+		  }
+		  .hero-header {
+			margin-top: 30px;
+			text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		  }
+		  .big-image {
+			margin-top: 38px;
+			margin-bottom: 20px;
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .subfooter-right {
+			border-top: 1px solid rgba(0, 0, 0, 0.09);
+		  }
+		  .subfooter-left {
+			text-align: center;
+		  }
+		}
+		@media (max-width: 479px) {
+		  h3 {
+			font-size: 18px;
+			line-height: 23px;
+		  }
+		  .button {
+			background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+			background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+			background-image: linear-gradient(#ff8d5e, #d7624b);
+			box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+			text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		  }
+		  .button.app-store {
+			background-image: -webkit-linear-gradient(#ff8d5e, #d7624b);
+			background-image: -o-linear-gradient(#ff8d5e, #d7624b);
+			background-image: linear-gradient(#ff8d5e, #d7624b);
+			box-shadow: rgba(255, 255, 255, 0.49) 0px 1px 0px 0px inset, #823c2e 0px 2px 0px 0px, rgba(0, 0, 0, 0.49) 0px 3px 12px 0px;
+			text-shadow: rgba(0, 0, 0, 0.10) 0px 2px 0px;
+		  }
+		  .section {
+			text-align: center;
+		  }
+		  .section.hero {
+			background-image: url(images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+		  }
+		  .section.white-bg {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		  }
+		  .hero-iphone {
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .logo-in-header {
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .hero-header {
+			font-size: 32px;
+			text-shadow: rgba(0, 0, 0, 0.24) 0px 2px 0px;
+		  }
+		  .big-image {
+			text-shadow: black 0px 0px 0px;
+		  }
+		  .price-text {
+			font-size: 23px;
+		  }
+		}
+	</style>
+    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/storyflow.css"> -->
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+=======
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/storyflow.webflow.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+>>>>>>> cindy:Final-Project/index/index2.html
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Montserrat:400,700","Bitter:400,700"]
+        }
+        }
+      });
+    </script>
+    <link rel="icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+    <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51d1bb05fc804b2621000001/51e06f0756878bb26a000008_webclip-slate.png">
+    <script type="text/javascript" src="js/webflow.js" defer></script>
+  </head><body>
+  <header class="section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-4 subfooter-left">
+          <img class="logo-in-header" src="images/200873092243992_2.jpg" width="35px" title="StoryFlow Logo">
+		  <div class="app-name">Storyflow</div>
+        </div>
+        <div class="w-col w-col-7 nav-column"><a class="nav-link" href="http://" target="_blank">sign in</a><a class="nav-link" href="#page-nav-share" target="_self">organization</a><a class="nav-link" href="http://aboutusstoryflow.webflow.com" target="_self">
+		view</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="section hero">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <img class="hero-iphone" src="images/258df3d6-3d20-4e01-ac00-5f649e351056_3-iphone-big.png" width="330px" title="STORYFLOW.">
+        </div>
+        <div class="w-col w-col-6 call-to-action">
+          <h1 class="hero-header">Exchange a part of your life.</h1>
+          <p class="hero-subtitle">You can share something with a story by exchange, sell, or even donate to charitable organization.
+            <br>
+          </p><a class="button" href="http://google.com" target="_blank">Create account<br></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-clearfix section white-bg" id="page-nav-organize">
+    <div class="w-container">
+      <div class="w-row organize-row">
+        <div class="w-col w-col-6">
+          <h2>Share your story.</h2>
+          <p>
+            <!--
+ /* Font Definitions */
+ @font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:新細明體;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+            Have you ever puzzled by something that waste too many space to place? This services can help you to share your story with a product to another one who may interested in. You can save the story in your life and share the product to someone who needed
+            it. We have also cooperation with some international and local charitable organization. In this way, you can choose to exchange your memory to someone with another special story, or donate to organization to help the needed.</p>
+          <div
+          class="w-row">
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+              <div class="icon-title">Exchange</div>
+              <img class="icon" src="images/exchange.png" width="57px" title="Exchange.">
+            </div>
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+              <div class="icon-title">Buy/ Sell</div>
+              <img class="icon" src="images/buy_sell.jpg" width="57px" title="Buy or sell.">
+            </div>
+            <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4">
+              <div class="icon-title">donation</div>
+              <img class="icon" src="images/donate.jpg" width="57px" title="Donate.">
+            </div>
+        </div>
+      </div>
+      <div class="w-col w-col-6 center">
+        <img class="big-image" src="images/5aace80f-02cb-47cc-9766-312b83e5ea9b_4section-1.png" width="445px" title="Share your story.">
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="section grey-bg" id="page-nav-display">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6 center">
+          <img class="big-image" src="images/donate_process.jpg" width="381px" title="Donate process.">
+        </div>
+        <div class="w-col w-col-6 w-clearfix">
+          <h2>Convenient donation</h2>
+          <p>You don't need to find the information for
+            <!--lobal
+ /* Font Definitions */
+ @font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:新細明體;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+            charitable organization anymore. This service can help you to skip the complicated process.</p>
+          <div class="w-row w-hidden-medium">
+            <div class="w-col w-col-4">
+              <div class="icon-title">Organization</div>
+              <img class="icon" src="images/OrganizationChart.jpg" title="OrganizationChart.">
+            </div>
+            <div class="w-col w-col-4">
+              <div class="icon-title">Volunteer</div>
+              <img class="icon" src="images/volunteer_3D_people.png" width="309" title="volunteer.">
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="page-nav-share">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <h2>Global Logistics</h2>
+          <p>
+            <!--
+ /* Font Definitions */
+ @font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:新細明體;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+            Our users are spread all over the world. Therefore, you can not only choose what you want to exchange near your residence. We will collect the product at the same region in the constant period, we believe that the flowing of story will more flexible in
+            this way.</p>
+        </div>
+        <div class="w-col w-col-6 center">
+          <img class="big-image" src="http://0.static.wix.com/media/9828501bb0ca5181cefe9443ab1fee99.wix_mp_1024" width="294px" title="Global.">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section purple">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-8">
+          <h2 class="price-text">Ready to enjoy another one's story !!</h2>
+        </div>
+        <div class="w-col w-col-4"><a class="button" href="http://google.com" target="_blank">Create account<br></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section white-bg subfooter">
+    <div class="w-container">
+      <div class="w-row">
+        <!--<div class="w-col w-col-6 left-column">
+           <h3>Check out upcoming features.</h3><a class="blog-link" href="http://www.webflow.com" target="_blank">Visit our blog</a>
+        </div>-->
+        <!--<div class="w-col w-col-6 subfooter-right">
+          <h3>Get updates about Slate.</h3>
+          <a class="w-inline-block social-icon" href="mailto:support@webflow.com?subject=Hello!" target="_blank">
+            <img src="images/0ebbdb2f-7fb6-4c01-9b1f-b90f5b675dbf_7a-social-email.png" width="21px" title="0ebbdb2f-7fb6-4c01-9b1f-b90f5b675dbf_7a-social-email.png">
+          </a>
+          <a class="w-inline-block social-icon" href="http://facebook.com/" target="_blank">
+            <img src="images/6178b192-94cd-448f-9c5c-c55385ff9286_7b-social-facebook.png" width="21px" title="6178b192-94cd-448f-9c5c-c55385ff9286_7b-social-facebook.png">
+          </a>
+          <a class="w-inline-block social-icon" href="http://twitter.com/webflowapp" target="_blank">
+            <img src="images/21750886-ef6f-461c-86de-ddae6dd582aa_7c-social-twitter.png" width="21px" title="21750886-ef6f-461c-86de-ddae6dd582aa_7c-social-twitter.png">
+          </a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+  <div class="section grey-bg footer">
+    <div class="w-container">
+      <!--<p class="footer-text">Made in Webflow.</p><a class="footer-link" href="http://www.flickr.com/photos/kara_allyson/" target="_blank">Images by Kara Allyson.</a><a class="footer-link" href="http://www.pixeden.com/psd-mock-up-templates/3/4-view-iphone-5-psd-vector-mockup"
+      target="_blank">iPhone Template by Pixeden.</a>-->
+	  <div class="span12">
+		<p> This work didn't finish. We will finish it as soon as we can. :  )</a></p>
+	</div>
+	  
+      <img class="logo-in-footer" src="images/4ba690df-2ae6-4459-903e-238c6569b152_logo-footer.png" width="25px" title="">
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+<!-- 08/27 尚未完成部分 
+  (1) SIGN  INORGANIZATION  OVERVIEW 連結的部分 
+  (2) Create account 的連結
+  (3) Donate prcess 尚未對其
+  (4) 背景顏色										-->
+  
+
