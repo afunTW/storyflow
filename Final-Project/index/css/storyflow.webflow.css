@@ -106,13 +106,12 @@ img {
   position: static;
   padding-top: 36px;
   padding-bottom: 36px;
-  padding-right: 36px;
-  padding-left: 36px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
   padding-bottom: 0px;
   background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
+  /*background-image: url(http://ppt.cc/4NpL@.jpg);*/
   background-size: cover;
 }
 .section.white-bg {
@@ -455,6 +454,3 @@ img {
     font-size: 23px;
   }
 }
-<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
