@@ -111,7 +111,6 @@ img {
 .section.hero {
   padding-bottom: 0px;
   background-image: url(../images/034ac8b0-2bb2-4fd2-8754-ab3fd2315d54_hero-background.jpg);
-  /*background-image: url(http://ppt.cc/4NpL@.jpg);*/
   background-size: cover;
 }
 .section.white-bg {
@@ -453,8 +452,4 @@ img {
   .price-text {
     font-size: 23px;
   }
-<<<<<<< HEAD:storyflow.css
 }
-=======
-}
->>>>>>> cindy:Final-Project/index/css/storyflow.webflow.css
