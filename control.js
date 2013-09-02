@@ -7,5 +7,6 @@ function jump2user(){
   //window.location.replace('https://www.facebook.com/');//fail
   //window.defaultstatus("Default status");//fail
   //location="https://www.facebook.com/";//fail
-  alert(window.location);
+  //alert(window.location);
+  $node user.js
 };
